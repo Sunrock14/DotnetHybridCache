@@ -16,7 +16,7 @@ builder.Services.AddHybridCache(options =>
         LocalCacheExpiration = TimeSpan.FromMinutes(5)
     };
     //.AddSerializer<SomeProtobufMessage,
-    //    GoogleProtobufSerializer<SomeProtobufMessage>>();
+    //    GoogleProtobufSerializer<SomeProtobufMessage>>();;
     //.AddSerializerFactory<GoogleProtobufSerializerFactory>();
 
 
